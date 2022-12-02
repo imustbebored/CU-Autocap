@@ -7,7 +7,7 @@ All of the JS logic for the extension can be found in background.js. We're using
 
 There are multiple arrays. One is "words" (these are single words to capitalize), another is "wordsToReplace" (these are phrases that need to be capitalized or formatted appropriately), and finally "wordsReplaceWith" (this is what we replace the "wordsToReplace" word with when entered by a user). Do keep in mind that the order of these words is important and that wherever you add one phrase to "wordsToReplace" you should add it to the same area in "ordsReplaceWith". 
 
-There was code added to not format text that is part of a hyperlink (an A tag) so that we don't end up with things like https://ClickUp.com
+There was code added to not format text that is part of a hyperlink (an "A" tag) so that we don't end up with things like https://ClickUp.com
 
 There was additional code added (towards the end of the file) to fix a bug with the cursor not playing well with Zendesk's text area. This ensure the cursor always ends up where its intended to, otherwise it would behave incorrectly, jumping to the beginning of the text.
 
