@@ -1,0 +1,29 @@
+{
+  // Required
+  "manifest_version": 3,
+  "name": "CU AutoCap",
+  "version": "1.1",
+
+  // Recommended
+  "description": "Automatically capitalize words related to CU brand voice.",
+  "action": {
+  "default_title": "CU Autocap",
+  "default_icon": "icon-32.png",
+  "default_popup": "popup.html"
+  },
+  "icons": {
+  "16":"icon-16.png",
+  "48":"icon-48.png",
+  "128":"icon-128.png"
+  },
+  // Optional
+  "author": "Jonathan Zarra",
+  "permissions": ["scripting"],
+  "host_permissions": [],
+  "content_scripts": [
+   {
+     "matches": ["https://*.zendesk.com/*","https://*.clickup.com/*"],
+     "js": ["background.js"]
+   }
+ ]
+}
