@@ -1,7 +1,7 @@
 # CU-Autocap
 Auto-capitalization and formatting by brand voice
 
-Zendesk and ClickUp don't use inputs for text areas, but rather, they use "contenteditable" divs. These divs work differently than a standard input box and often have their own JS code that listens to the input and acts accordingly. The extension listens to the contenteditable div and when certain keywords are entered, the extension will format them according to brand voice.
+ZD and CU don't use inputs for text areas, but rather, they use "contenteditable" divs. These divs work differently than a standard input box and often have their own JS code that listens to the input and acts accordingly. The extension listens to the contenteditable div and when certain keywords are entered, the extension will either capitalize them or format them according to brand voice found from one of the internal docs.
 
 All of the JS logic for the extension can be found in background.js. We're using an eventListener which listens to the text input by users. If the text equals a keyword that we have, we format it accordingly (either capitalizing it or adding other formatting such as "drag-and-drop").
 
