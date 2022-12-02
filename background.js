@@ -139,7 +139,7 @@ const wordsReplaceWith=[
   "Tags ClickApp",
   "Command Center",
   "Community templates",
-  "label custom field",
+  "Label Custom Field",
   "Date Custom Field",
   "Dropdown Custom Field",
   "Formula Fields",
