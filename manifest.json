@@ -18,7 +18,6 @@
   },
   // Optional
   "author": "Jonathan Zarra",
-  "permissions": ["scripting"],
   "host_permissions": [],
   "content_scripts": [
    {
