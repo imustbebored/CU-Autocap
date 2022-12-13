@@ -3,7 +3,7 @@
 //             return selection.getRangeAt(0).startContainer.parentNode;
 
 
-const words = ['automation', 'action', 'conditions','trigger','clip','column','dashboard','doc','favorites','folder','formula','goal','hierarchy','home','list','notepad','profiles','proofing','pulse','sidebar','space','active','closed','table','targets','teams','trash','v2','sprint'];
+const words = ['automation', 'action', 'conditions','trigger','clip','column','dashboard','doc','favorites','folder','formula','goal','hierarchy','home','list','notepad','profiles','proofing','pulse','sidebar','space','table','targets','teams','trash','v2','sprint'];
 
 const wordsToReplace=[
   "clickup objects",
@@ -112,7 +112,10 @@ const wordsToReplace=[
   "done status",
   "home list",
   "listed",
-  "listing"
+  "listing",
+  'active status',
+  'closed status',
+  'done status'
 ];
 
 
@@ -226,7 +229,10 @@ const wordsReplaceWith=[
   "Done status",
   "home list",
   "listed",
-  "listing"
+  "listing",
+  'Active status',
+  'Closed status',
+  'Done status'
 ];
 
 

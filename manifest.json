@@ -1,13 +1,13 @@
 {
   // Required
   "manifest_version": 3,
-  "name": "CU AutoCap",
+  "name": "CU Brand Voice",
   "version": "1.1",
 
   // Recommended
-  "description": "Automatically capitalize words related to CU brand voice.",
+  "description": "Automatically format text according to CU brand voice.",
   "action": {
-  "default_title": "CU Autocap",
+  "default_title": "CU Brand Voice",
   "default_icon": "icon-32.png",
   "default_popup": "popup.html"
   },
