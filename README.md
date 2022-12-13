@@ -5,7 +5,7 @@ ZD and CU don't use inputs for text areas, but rather, they use "contenteditable
 
 All of the JS logic for the extension can be found in background.js. We're using an eventListener which listens to the text input by users. If the text equals a keyword that we have, we format it accordingly (either capitalizing it or adding other formatting such as "drag-and-drop").
 
-There are multiple arrays. One is "words" (these are single words to capitalize), another is "wordsToReplace" (these are phrases that need to be capitalized or formatted appropriately), and finally "wordsReplaceWith" (this is what we replace the "wordsToReplace" word with when entered by a user). Do keep in mind that the order of these words is important and that wherever you add one phrase to "wordsToReplace" you should add it to the same area in "ordsReplaceWith". 
+There are multiple arrays. One is "words" (these are single words to capitalize), another is "wordsToReplace" (these are phrases that need to be capitalized or formatted appropriately), and finally "wordsReplaceWith" (this is what we replace the "wordsToReplace" word with when entered by a user). Do keep in mind that the order of these words is important and that wherever you add one phrase to "wordsToReplace" you should add it to the same area in "wordsReplaceWith". 
 
 There was code added to not format text that is part of a hyperlink (an "A" tag) so that we don't end up with things like https://ClickUp.com
 
