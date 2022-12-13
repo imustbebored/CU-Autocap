@@ -9,6 +9,6 @@ There are multiple arrays. One is "words" (these are single words to capitalize)
 
 There was code added to not format text that is part of a hyperlink (an "A" tag) so that we don't end up with things like https://ClickUp.com
 
-There was additional code added (towards the end of the file) to fix a bug with the cursor not playing well with Zendesk's text area. This ensure the cursor always ends up where its intended to, otherwise it would behave incorrectly, jumping to the beginning of the text.
+There was additional code added (towards the end of the file) to fix a bug with the cursor not playing well with Zendesk's text area. This ensures the cursor always ends up where its intended to, otherwise it would behave incorrectly, jumping to the beginning of the text.
 
 Other than that, should be pretty self explanatory!
