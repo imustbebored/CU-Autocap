@@ -115,7 +115,8 @@ const wordsToReplace=[
   "listing",
   'active status',
   'closed status',
-  'done status'
+  'done status',
+  'documentation'
 ];
 
 
@@ -232,7 +233,8 @@ const wordsReplaceWith=[
   "listing",
   'Active status',
   'Closed status',
-  'Done status'
+  'Done status',
+  'documentation'
 ];
 
 
